@@ -1,0 +1,131 @@
+body .main{
+    display: flex;
+    flex-direction: column;
+    background: url(Images/background3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: center;
+
+}
+
+
+body .main .containerTop{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body .main .containerTop .title h1{
+    text-align: center;
+    padding: 15px;
+    /* border-radius: 10px; */
+    background-color: black;
+    max-width: 600px;
+    color: #f2f2f2;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+}
+
+body .main .containerTop .subtitle h2{
+    text-align: center;
+    font-size: 25px;
+    /* background-color: grey; */
+    max-width: 600px;
+    color:crimson;
+    padding-top: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: crimson;
+    border: dashed;
+}
+
+body .main .containerTop .title .x{
+    max-width: 70px;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+
+.containerBottom{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 120px; */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.containerBottom .subContainer01{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerBottom .InputF{
+    max-width: 400px;
+    max-height: 30px;
+    margin: 10px;
+}
+
+
+.containerBottom .InputF img{
+    max-width: 100px;
+    max-height: 30px;
+}
+
+#heroBioInput input{
+    min-height: 950px;
+    min-height: 40px;
+}
+
+.containerBottom .InputB{
+    min-width: 650px;
+    min-height: 90px;
+    margin: 20px;
+}
+
+
+.containerBottom .InputB img{
+    max-width: 70px;
+    max-height: 40px;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.main .Buttons button{
+
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+}
+
+.main .Buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tabledivC{
+    display: flex;
+}
+
+.d-flex table{
+    margin: 1em, 10em;
+}
+
+body .tableDivC .d-flex tbody td img {
+    max-width: 20px;
+}
+
+.subContainer01 .pt-2 input{
+    padding: 20px;
+}
